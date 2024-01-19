@@ -1,5 +1,4 @@
-# After Effects Scripting Guide
-
+# Руководство по написанию сценариев After Effects
 This repo hosts the After Effects Scripting Guide RST docs, linked into a http://readthedocs.io system hosted at https://ae-scripting.docsforadobe.dev/
 
 This came from the Adobe After Effects CS6 Scripting Guide, and has been added to and adjusted to reflect the current state of scripting within AE.
@@ -14,9 +13,9 @@ This project uses reStructuredText. For a reference on how to write reStructured
 
 ----
 
-## Build HTML Locally
+## Локальная сборка HTML
 
-You may want to build the HTML locally before pushing, in order to ensure that the result is what you'd expect. These files aren't included in the git repo, nor are they used online; this is solely to create a local, offline version of the online docs.
+Возможно, вы захотите создать HTML локально перед отправкой, чтобы гарантировать, что результат будет таким, как вы ожидаете. Эти файлы не включены в репозиторий git и не используются в Интернете; это делается исключительно для создания локальной автономной версии онлайн-документов.
 
 - Install ``Python``
 - Install ``pip``
@@ -25,7 +24,7 @@ You may want to build the HTML locally before pushing, in order to ensure that t
 
 ----
 
-## Admonitions Usage
+## Использование предупреждений
 
 Currently, the following [admonitions](http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions) are in use in this project. Try to keep one piece of data per note, for easier parsing.
 
