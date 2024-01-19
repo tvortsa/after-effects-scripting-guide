@@ -2,16 +2,16 @@
 
 .. _Application:
 
-Application object
+Application объект
 ################################################
 
 ``app``
 
 **Description**
 
-Provides access to objects and application settings within the After Effects application. The single global object is always available by its name, app.
+Предоставляет доступ к объектам и настройкам приложения в приложении After Effects. Единственный глобальный объект всегда доступен по его имени app.
 
-Attributes of the Application object provide access to specific objects within After Effects. Methods of the Application object can create a project, open an existing project, control Watch Folder mode, purge memory, and quit the After Effects application. When the After Effects application quits, it closes the open project, prompting the user to save or discard changes as necessary, and creates a project file as necessary.
+Атрибуты объекта «Приложение» обеспечивают доступ к определенным объектам в After Effects. Методы объекта Application могут создавать проект, открывать существующий проект, управлять режимом просмотра папки, очищать память и выходить из приложения After Effects. Когда приложение After Effects завершает работу, оно закрывает открытый проект, предлагая пользователю при необходимости сохранить или отменить изменения, и при необходимости создает файл проекта.
 
 ----
 
