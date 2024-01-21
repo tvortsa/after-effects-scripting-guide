@@ -16,7 +16,7 @@ Application объект
 ----
 
 ==========
-Attributes
+Атрибуты
 ==========
 
 .. _app.activeViewer:
@@ -26,7 +26,7 @@ app.activeViewer
 
 ``app.activeViewer``
 
-**Description**
+**Описание**
 
 The Viewer object for the currently focused or active-focused viewer (Composition, Layer, or Footage) panel. Returns null if no viewers are open.
 
